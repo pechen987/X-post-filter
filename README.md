@@ -14,13 +14,13 @@ A free, open-source browser extension that hides posts on X (Twitter) containing
 - Keyboard and screen-reader friendly, with light and dark themes
 - Private: everything stays in your browser
 
-## Install
+## Install (takes 30 seconds)
 
-1. Open the latest release, download ZIP archive and unpack it.
+1. Open the [latest release](https://github.com/pechen987/X-post-filter/releases/tag/1.0.0), download the ZIP archive and unpack it.
 2. Open `chrome://extensions` (or `edge://extensions`, `brave://extensions`).
 3. Turn on **Developer mode**.
 4. Click **Load unpacked** and upload the unpacked folder.
-5. Pin **Word Filter for X** from the puzzle-piece menu, then reload x.com.
+5. Pin **Word Filter for X** from the puzzle-piece menu, then RELOAD x.com. Done ✅
 
 ## Usage
 
