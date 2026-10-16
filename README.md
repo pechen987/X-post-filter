@@ -28,13 +28,6 @@ Store links will be added here once the extension is published.
 4. Click **Load unpacked** and select the folder that contains `manifest.json`.
 5. Pin **Word Filter for X** from the puzzle-piece menu, then reload x.com.
 
-### Manually (Firefox)
-
-1. Open `about:debugging` and click **This Firefox**.
-2. Click **Load Temporary Add-on** and pick `manifest.json`.
-
-Firefox removes temporary add-ons when it restarts, so for permanent use install from Firefox Add-ons once it is listed.
-
 ## Usage
 
 Click the extension icon on any page to open the settings:
@@ -74,25 +67,3 @@ To build the zip for a store upload:
 ```
 zip -r word-filter-for-x.zip manifest.json shared.js content.js popup.html popup.css popup.js support.html support.js icons
 ```
-
-## Support the project
-
-Hi, I'm Igor, an open-source developer. Your support helps me maintain these projects:
-
-1. **Trustless Wallet**: [apple.co/4vpMOrh](https://apple.co/4vpMOrh)
-2. **Social housing map**: [socialmap.hd-apps.com](https://socialmap.hd-apps.com/)
-3. **X post filter**: [github.com/pechen987/X-post-filter](https://github.com/pechen987/X-post-filter)
-
-Ways to support:
-
-- **Buy Me a Coffee**: <https://buymeacoffee.com/pechen>
-- **Bitcoin Lightning**: `trustless@pay.hd-apps.com`
-- **Bitcoin on-chain**: `bc1q835gw6aqf6jmgs5pja5xf5xzcp76w75cqfvek6`
-
-Check the first and last characters of an address in your wallet before sending. The same addresses are shown on the extension's support page. If the two ever differ, do not send.
-
-## License
-
-[MIT](LICENSE)
-
-This project is not affiliated with or endorsed by X Corp.
