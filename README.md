@@ -16,16 +16,10 @@ A free, open-source browser extension that hides posts on X (Twitter) containing
 
 ## Install
 
-### From a browser store
-
-Store links will be added here once the extension is published.
-
-### Manually (Chrome, Edge, Brave and other Chromium browsers)
-
-1. Download this repo (**Code → Download ZIP**) or the zip from the [Releases](../../releases) page, and unzip it somewhere you'll keep it.
+1. Open the latest release, download ZIP archive and unpack it.
 2. Open `chrome://extensions` (or `edge://extensions`, `brave://extensions`).
 3. Turn on **Developer mode**.
-4. Click **Load unpacked** and select the folder that contains `manifest.json`.
+4. Click **Load unpacked** and upload the unpacked folder.
 5. Pin **Word Filter for X** from the puzzle-piece menu, then reload x.com.
 
 ## Usage
