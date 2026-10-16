@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Word Filter for X</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Word Filter for X</h1>
+    <label class="switch">
+      <input type="checkbox" id="enabled" role="switch" aria-label="Filtering enabled">
+      <span class="track" aria-hidden="true"></span>
+    </label>
+  </header>
+  <p id="status" class="status" aria-live="polite"></p>
+
+  <main id="main">
+    <section>
+      <div class="row">
+        <div class="text">
+          <label for="caseSensitive" class="strong">Match exact capitalization</label>
+          <small>On: &ldquo;BREAKING&rdquo; is hidden but &ldquo;breaking&rdquo; is not. Off: any capitalization is hidden.</small>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="caseSensitive" role="switch">
+          <span class="track" aria-hidden="true"></span>
+        </label>
+      </div>
+    </section>
+
+    <section>
+      <h2>Common phrases</h2>
+      <ul id="presets" class="list"></ul>
+    </section>
+
+    <section>
+      <h2>Your own words</h2>
+      <form id="addForm" class="add" autocomplete="off">
+        <input type="text" id="newWord" maxlength="60" placeholder="Add a word or phrase" aria-label="New word or phrase">
+        <button type="submit">Add</button>
+      </form>
+      <p id="error" class="error" role="alert"></p>
+      <ul id="custom" class="list"></ul>
+      <p id="empty" class="hint">Nothing added yet.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="support" href="support.html" target="_blank" rel="noopener">&hearts; Support this project</a>
+    <small>Changes save automatically and apply instantly. Everything stays in your browser.</small>
+  </footer>
+
+  <script src="shared.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
